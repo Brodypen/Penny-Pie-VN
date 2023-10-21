@@ -46,6 +46,10 @@ label start:
     label flags:
         if answer:
             e "I cant wait to play!!"
+            label startRoute:
+                call screen choose_route
+            return
+
         else:
             e "Hope we can play again soon!"
 
