@@ -23,8 +23,29 @@ label start:
     show eileen happy
 
     # These display lines of dialogue.
+    $ answer = False
 
     e "You've created a new Ren'Py game."
+    label choices:
+        e "Do you want to play this game?"
+    menu:
+        "yes":
+            jump choice_a
+        "no":
+            jump choice_b
+
+    label choice_a:
+        $ answer = True
+        e "Yay!"
+
+    label choice_b:
+        e "Awww okay!"
+
+    label flags:
+        if answer:
+            e "I cant wait to play!!"
+        else:
+            e "Hope we can play again soon!"
 
     e "Once you add a story, pictures, and music, you can release it to the world!"
 
