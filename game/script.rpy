@@ -37,9 +37,11 @@ label start:
     label choice_a:
         $ answer = True
         e "Yay!"
+        jump flags
 
     label choice_b:
         e "Awww okay!"
+        jump flags
 
     label flags:
         if answer:
