@@ -2,11 +2,17 @@
 errors listed below, and try again.
 
 
-The label start is defined twice, at File "game/script.rpy", line 11:
-label start:
-and File "game/script.rpy", line 49:
-            label start:
+The label rightDecision3 is defined twice, at File "game/scripts/gold_route.rpy", line 14:
+    label rightDecision3:
+and File "game/scripts/yellow_route.rpy", line 14:
+    label rightDecision3:
+
+
+The label wrongDecision3 is defined twice, at File "game/scripts/gold_route.rpy", line 19:
+    label wrongDecision3:
+and File "game/scripts/yellow_route.rpy", line 19:
+    label wrongDecision3:
 
 
 Ren'Py Version: Ren'Py 8.1.3.23091805
-Sat Oct 21 17:46:32 2023
+Sat Oct 21 22:34:39 2023

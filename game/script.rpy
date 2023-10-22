@@ -37,6 +37,7 @@ label start:
     label choice_a:
         $ answer = True
         e "Yay!"
+        e "I can't wait to play!"
         jump flags
 
     label choice_b:
@@ -45,16 +46,12 @@ label start:
 
     label flags:
         if answer:
-            e "I cant wait to play!!"
             label startRoute:
                 call screen choose_route
             return
 
         else:
             e "Hope we can play again soon!"
-
-    e "Once you add a story, pictures, and music, you can release it to the world!"
-
     # This ends the game.
 
     return
