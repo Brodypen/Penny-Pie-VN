@@ -19,7 +19,7 @@ screen choose_route:
             action Jump("blue_start")
         imagebutton:
             auto "choices/red_%s.png"
-            action Jump("red_start")
+            action Jump("red_start") 
         imagebutton:
             auto "choices/yellow_%s.png"
             action Jump("yellow_start")
