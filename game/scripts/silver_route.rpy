@@ -1,4 +1,4 @@
-define silver_character = Character("Silver", color = "#C0C0C0", outlines = [ (absolute(2), "#000", absolute(0), absolute(0)) ])
+define silver_character = Character("Penny", color = "#C0C0C0", outlines = [ (absolute(2), "#000", absolute(0), absolute(0)) ])
 
 label silver_start:
     silver_character "Hey, I'm [silver_character]. Good to meet you!!"
@@ -7,9 +7,9 @@ label silver_start:
     silver_character "He explains how much money he is making and tries to convince her to do the same. Should she..."
     menu:
         "Keep her money in her savings":
-            jump rightDecision
+            jump rightDecision4
         "Invest all her money in the same stock":
-            jump wrongDecision
+            jump wrongDecision4
 
     label rightDecision4:
         $ answer = True

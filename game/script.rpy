@@ -3,8 +3,9 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define e = Character("Eileen")
-
+define e = Character("Penny")
+image Penny_idle = "bg/WaveCinna.png"
+image bg store = "bg/store.png"
 
 # The game starts here.
 
@@ -14,13 +15,18 @@ label start:
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
 
-    scene bg room
+    scene bg store:
+        zoom 2.0
 
     # This shows a character sprite. A placeholder is used, but you can
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
 
-    show eileen happy
+    show Penny_idle with moveoutright:
+        xpos 100
+        ypos 50
+        zoom 2.0
+
 
     # These display lines of dialogue.
     $ answer = False

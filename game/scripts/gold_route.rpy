@@ -1,4 +1,4 @@
-define gold_character = Character("Gold", color = "#FFD700", outlines = [ (absolute(2), "#000", absolute(0), absolute(0)) ])
+define gold_character = Character("Penny", color = "#FFD700", outlines = [ (absolute(2), "#000", absolute(0), absolute(0)) ])
 
 label gold_start:
     gold_character "Hello, I'm [gold_character]. Nice to meet you!!"
@@ -7,9 +7,9 @@ label gold_start:
     gold_character "At the same time, she has been eyeing a brand new flat screen tv to put in her living room. Should she ..."
     menu:
         "Pay off the rest of her debt":
-            jump rightDecision
+            jump rightDecision5
         "Buy the TV and continue to pay off the debt monthly":
-            jump wrongDecision
+            jump wrongDecision5
 
     label rightDecision5:
         $ answer = True
