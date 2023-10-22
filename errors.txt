@@ -2,17 +2,9 @@
 errors listed below, and try again.
 
 
-The label rightDecision is defined twice, at File "game/scripts/blue_route.rpy", line 14:
-    label rightDecision:
-and File "game/scripts/red_route.rpy", line 15:
-    label rightDecision:
-
-
-The label wrongDecision is defined twice, at File "game/scripts/blue_route.rpy", line 19:
-    label wrongDecision:
-and File "game/scripts/red_route.rpy", line 20:
-    label wrongDecision:
-
+File "game/script.rpy", line 25: end of line expected.
+    with moveoutright:
+                     ^
 
 Ren'Py Version: Ren'Py 8.1.3.23091805
-Sat Oct 21 20:26:28 2023
+Sun Oct 22 01:09:20 2023
