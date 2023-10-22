@@ -22,9 +22,7 @@ label start:
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
 
-    show Penny_idle with moveoutright:
-        xpos 100
-        ypos 50
+    show Penny_idle at truecenter with moveoutright:
         zoom 2.0
 
 
