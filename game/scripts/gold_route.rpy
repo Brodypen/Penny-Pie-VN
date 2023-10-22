@@ -1,9 +1,12 @@
 define gold_character = Character("Penny", color = "#ffeea6", outlines = [ (absolute(2), "#000", absolute(0), absolute(0)) ])
 
 label gold_start:
-    gold_character "Hello, I'm [gold_character]. Nice to meet you!!"
+    gold_character "Yooooooo its[gold_character]. Nice to meet you!!"
     gold_character "Today we are going to learn about credit card debt! Here is my predicament:"
     gold_character "When looking through her mail, Penny sees a letter from the bank regarding her credit card debt. After finalizing her monthly budget, she is looking at the 30%%, which interestingly is enough to pay off her credit card debt entirely with a tiny bit of cash left over. "
+    scene store
+    show Penny_shop at truecenter with moveoutright:
+        zoom 2.0
     gold_character "At the same time, she has been eyeing a brand new flat screen tv to put in her living room. Should she ..."
     menu:
         "Pay off the rest of her debt":
