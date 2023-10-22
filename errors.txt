@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/gui.rpy", line 138: expected expression
-    define gui.dialogue_xpos = 
-                               ^
+File "game/scripts/blue_route.rpy", line 23: expected statement.
+    ypos 50
+           ^
 
 Ren'Py Version: Ren'Py 8.1.3.23091805
-Sat Oct 21 23:54:19 2023
+Sun Oct 22 09:15:32 2023
