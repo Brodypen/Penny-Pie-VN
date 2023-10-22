@@ -1,4 +1,4 @@
-define gold_character = Character("Penny", color = "#FFD700", outlines = [ (absolute(2), "#000", absolute(0), absolute(0)) ])
+define gold_character = Character("Penny", color = "#ffeea6", outlines = [ (absolute(2), "#000", absolute(0), absolute(0)) ])
 
 label gold_start:
     gold_character "Hello, I'm [gold_character]. Nice to meet you!!"

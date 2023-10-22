@@ -1,4 +1,4 @@
-define red_character = Character("Penny", color = "#ff0000", outlines = [ (absolute(2), "#fff", absolute(0), absolute(0)) ])
+define red_character = Character("Penny", color = "#E0D7FF", outlines = [ (absolute(2), "#fff", absolute(0), absolute(0)) ])
 
 label red_start:
     red_character "Hey its [red_character]! We're back again with another story of mines!"

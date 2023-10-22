@@ -1,4 +1,4 @@
-define yellow_character = Character("Penny", color = "#FFFF00", outlines = [ (absolute(2), "#000", absolute(0), absolute(0)) ])
+define yellow_character = Character("Penny", color = "#ffcfec", outlines = [ (absolute(2), "#000", absolute(0), absolute(0)) ])
 
 label yellow_start:
     yellow_character "Hello, I'm [yellow_character]. Nice to meet you!!"

@@ -1,4 +1,4 @@
-define silver_character = Character("Penny", color = "#C0C0C0", outlines = [ (absolute(2), "#000", absolute(0), absolute(0)) ])
+define silver_character = Character("Penny", color = "#e66b6b", outlines = [ (absolute(2), "#000", absolute(0), absolute(0)) ])
 
 label silver_start:
     silver_character "Hey, I'm [silver_character]. Good to meet you!!"
