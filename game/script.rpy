@@ -36,7 +36,7 @@ label start:
     # These display lines of dialogue.
     $ answer = False
 
-    e "You've created a new Ren'Py game."
+
     label choices:
         e "Do you want to play this game?"
     menu:
