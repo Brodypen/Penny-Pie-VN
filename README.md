@@ -1,4 +1,7 @@
 # Penny-Pie-VN
+<img width="540" alt="Gif" src="https://i.pinimg.com/originals/2a/eb/43/2aeb4319fbf36410420911bd74ace595.gif">
+
+Welcome to Penny Pie! A fun way to learn more about how to be financially responsible!
 
 ## Devost link
 [here](https://devpost.com/software/pennie-pie)
