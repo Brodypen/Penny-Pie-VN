@@ -16,7 +16,7 @@ label gold_start:
 
     label rightDecision5:
         $ answer = True
-        gold_character "That's correct! *we could give reasons here???*"
+        gold_character "That's correct! Paying off the rest of your debt is a SLAY!!!"
         jump gold_ending
 
     label wrongDecision5:
@@ -27,7 +27,7 @@ label gold_start:
 
 
 label gold_ending:
-    gold_character "Thank you and have a good day!!"
+    gold_character "Thank you and have a good day!! I loved having you here, have a good slayful life."
 
     # set gold to true to indicate gold's ending was completed.
     $ persistent.gold = True
